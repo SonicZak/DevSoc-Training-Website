@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}  
+
+body {
+    background: radial-gradient(circle, #3498db, #2980b9);
+    background-image: url('assets/images/Seamless-Geometric-Pattern-6-Use-Pattern-05.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    background: #ffffffe3;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 55px;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 140px;
+    width: auto;
+    margin: 10px 10px;
+}
+
+li {
+    margin: 2px auto;
+}
+
+.box-1 {
+    background: #3f306c;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 55px;
+    min-height: 150px;
+}
+
+.box-2 {
+    background: #6c304c;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 55px;
+    min-height: 150px;
+}
+
+.box-3 {
+    background: #306c62;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 55px;
+    min-height: 150px;
+}
+
+.box-4 {
+    background: #6c6530;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 55px;
+    min-height: 170px;
+}
+
+.circle-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+}  
+
+.circle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 78px;
+    background-color: #346cdb;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
+}  
+
+.circle-btn:hover {
+    background-color: #2980b9;
+}
